@@ -1,0 +1,55 @@
+/*
+Reto 1 css hoja de estilos
+María Tosin Pérez 
+9 Diciembre 2020 
+*/
+h1{
+background-color: white;
+border: solid 30px white;
+border-radius: 40px;
+text-align: center;
+border:dotted grey;
+  
+} 
+b{
+    color: white;
+}
+html {
+    background-color: darkslateblue;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+ol{
+    color: white;
+    text-align:left;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+main>img{
+    width: 60%;
+    margin: auto;
+    border: 3px solid white;
+    display: block;    
+}
+footer{
+    position:fixed;
+    bottom:0px;
+    width: 97%;
+    background:white;
+    color:black;
+    padding: 8px;
+    border:dotted grey;
+    text-align: center;
+    border-radius: 40px;
+}
+img{
+    transition: all 1.5s ease ;
+}
+img:hover{
+    transform: rotate(-5deg) scale(1.2); 
+    border: 5px solid black;
+}

@@ -1,0 +1,24 @@
+/*
+   Hoja de estilo
+   Creada por Ángela y María
+   Diciembre 2020
+*/
+*{
+  margin: 0px;  
+  box-sizing: border-box;
+}
+header, footer {
+    background-color: skyblue;
+    padding: 25px;
+    color: oldlace;
+    text-align: center;
+}
+footer{
+    clear:both;
+}
+section {
+    width: 33%;
+    background-color: beige;
+    padding: 20px;
+    float: left;
+}

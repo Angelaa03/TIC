@@ -1,0 +1,35 @@
+/*
+   CSS cajas flotantes
+   Diciembre 2020
+   ÁNGELA Y MARÍA 
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+div{
+    padding: 20px;
+    border: solid black 3px;
+    width: 25%;
+    float: left;
+}
+.roja{
+    
+    background-color: lightcoral;
+}
+
+.amarilla{
+    background-color: bisque;
+    
+}
+.verde{
+    
+    background-color: darkseagreen;
+}
+.asul{
+    
+    background-color: paleturquoise;
+    clear: both;
+    width: 100%;
+}

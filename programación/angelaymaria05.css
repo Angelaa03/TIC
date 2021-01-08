@@ -1,0 +1,40 @@
+/*
+Galería de imágenes css
+Ángela y María
+Noviembre 2020
+*/
+main{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 35% 50% 35%;
+    grid-gap: 5px;
+}
+
+main>img{
+    width: 30%;
+    margin: auto;
+    border: 3px solid white;
+}
+header{
+    background: black;
+    color:cadetblue;
+    padding: 20px;
+    text-align:center;   
+}
+footer{
+    position:fixed;
+    bottom:0px;
+    width: 100%;
+    background: black;
+    color:aliceblue;
+    padding: 20px;
+    text-align: center;  
+}
+img{
+    transition: all 0.5s ease;
+}
+img:hover{
+    transform: rotate(10deg);
+    /*transform: scale (0.6);*/  
+    border: 5px solid black;
+}
