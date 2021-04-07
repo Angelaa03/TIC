@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <title>Realidad aumentada 05</title>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+</head>
+<body style='margin : 0px; overflow: hidden;'>
+  <a-scene embedded arjs>
+    <a-text position='-0.5 0.1 -0.5' color=#DB818E value="TIC 2021"></a-text>
+    <a-text position='-0.5 0.1 0.5' color=black value="Las + mejores"></a-text>
+    <a-image rotation='90 180 0' scale= "1 1 1" src="./felipe.jpg"></a-image>
+    <a-marker-camera preset='hiro'></a-marker-camera>
+  </a-scene> 
+</body>
+</html>
