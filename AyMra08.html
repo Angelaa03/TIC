@@ -12,10 +12,11 @@
             <a-asset-item id="cara-mtl" src="./Angela.mtl"></a-asset-item>
           </a-assets>
           <a-entity obj-model="obj: #cara-obj; mtl: #cara-mtl" scale="0.01 0.01 0.01" rotation="-90 0 0" position="0 1.5 -4">
-            <a-animation attribute="rotation" begin="2500" to="0 0 360" dur="50000" easing='linear' repeat="indefinite"></a-animation>
-            <a-animation attribute="scale" begin="2000" to="0.007 0.007 0.007"></a-animation>
+            <a-animation attribute="rotation" begin="2500" to="0 0 -360" dur="50000" easing='linear' repeat="indefinite"></a-animation>
+            <a-animation attribute="scale" begin="2000" to="0.007 0.007 0.007" dur="50000"></a-animation>
+            <a-animation attribute="position" dur="30000" to="0 4 0"></a-animation>
           </a-entity>
-          <a-sky color="blue"></a-sky>
+          <a-sky color="#AEC2EC"></a-sky>
           <a-camera fov="60" position="0 2 3"></a-camera>
         </a-scene>
 </body>
